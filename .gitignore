@@ -3,3 +3,4 @@ target
 .idea
 .DS_STORE
 maven-central-deploy.sh
+maven-central-deploy.log

@@ -5,7 +5,7 @@
     <groupId>io.github.jrosenkranz.opts</groupId>
     <artifactId>opts-parent</artifactId>
     <packaging>pom</packaging>
-    <version>0.0.1</version>
+    <version>0.0.1-SNAPSHOT</version>
     <name>Opts Parent Project</name>
 
     <parent>

@@ -21,7 +21,7 @@ For Scala
 <dependency>
     <groupId>io.github.jrosenkranz.opts</groupId>
     <artifactId>opts_2.11</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.1-SNAPSHOT</version>
 </dependency>
 ```
 
@@ -31,7 +31,7 @@ For Java
 <dependency>
     <groupId>io.github.jrosenkranz.opts</groupId>
     <artifactId>opts</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.1-SNAPSHOT</version>
 </dependency>
 ```
 

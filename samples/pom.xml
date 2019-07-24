@@ -3,7 +3,7 @@
 
     <artifactId>opts-samples-parent</artifactId>
     <packaging>pom</packaging>
-    <version>0.0.1</version>
+    <version>0.0.1-SNAPSHOT</version>
     <name>Opts Samples Parent Project</name>
 
     <modules>
@@ -14,7 +14,7 @@
     <parent>
         <groupId>io.github.jrosenkranz.opts</groupId>
         <artifactId>opts-parent</artifactId>
-        <version>0.0.1</version>
+        <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
