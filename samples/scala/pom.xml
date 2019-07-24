@@ -7,7 +7,7 @@
     <name>Options Samples - Scala</name>
 
     <parent>
-        <groupId>org.jrosenkranz.opts</groupId>
+        <groupId>io.github.jrosenkranz.opts</groupId>
         <artifactId>opts-samples-parent</artifactId>
         <version>0.0.1</version>
         <relativePath>../pom.xml</relativePath>
@@ -104,7 +104,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.jrosenkranz.opts</groupId>
+            <groupId>io.github.jrosenkranz.opts</groupId>
             <artifactId>opts_2.11</artifactId>
             <version>0.0.1</version>
         </dependency>

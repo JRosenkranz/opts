@@ -7,7 +7,7 @@
     <name>Options Core - Scala</name>
 
     <parent>
-        <groupId>org.jrosenkranz.opts</groupId>
+        <groupId>io.github.jrosenkranz.opts</groupId>
         <artifactId>opts-core-parent</artifactId>
         <version>0.0.1</version>
         <relativePath>../pom.xml</relativePath>

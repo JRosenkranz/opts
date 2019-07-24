@@ -19,7 +19,7 @@ For Scala
 
 ```xml
 <dependency>
-    <groupId>org.jrosenkranz.opts</groupId>
+    <groupId>io.github.jrosenkranz.opts</groupId>
     <artifactId>opts_2.11</artifactId>
     <version>0.0.1</version>
 </dependency>
@@ -29,7 +29,7 @@ For Java
 
 ```xml
 <dependency>
-    <groupId>org.jrosenkranz.opts</groupId>
+    <groupId>io.github.jrosenkranz.opts</groupId>
     <artifactId>opts</artifactId>
     <version>0.0.1</version>
 </dependency>

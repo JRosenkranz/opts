@@ -7,7 +7,7 @@
     <name>Options Core - Java</name>
 
     <parent>
-        <groupId>org.jrosenkranz.opts</groupId>
+        <groupId>io.github.jrosenkranz.opts</groupId>
         <artifactId>opts-core-parent</artifactId>
         <version>0.0.1</version>
         <relativePath>../pom.xml</relativePath>
@@ -72,7 +72,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.jrosenkranz.opts</groupId>
+            <groupId>io.github.jrosenkranz.opts</groupId>
             <artifactId>opts_2.11</artifactId>
             <version>0.0.1</version>
         </dependency>
