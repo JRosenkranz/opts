@@ -15,21 +15,6 @@ This is a command line parser to be used in Scala and Java applications. Some fe
 
 ## including in a project
 
-### Add the following repository
-
-```xml
-<repositories>
-    <repository>
-        <id>oss-sonatype</id>
-        <name>oss-sonatype</name>
-        <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
-        <snapshots>
-            <enabled>true</enabled>
-        </snapshots>
-    </repository>
-</repositories>
-```
-
 ### Add the following dependency
 
 #### For Scala
@@ -38,7 +23,7 @@ This is a command line parser to be used in Scala and Java applications. Some fe
 <dependency>
     <groupId>io.github.jrosenkranz.opts</groupId>
     <artifactId>opts_2.11</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
 </dependency>
 ```
 
@@ -48,7 +33,7 @@ This is a command line parser to be used in Scala and Java applications. Some fe
 <dependency>
     <groupId>io.github.jrosenkranz.opts</groupId>
     <artifactId>opts</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
 </dependency>
 ```
 
