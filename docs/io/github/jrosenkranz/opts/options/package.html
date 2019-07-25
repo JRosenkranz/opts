@@ -1,0 +1,300 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <title>options - Options Core - Scala 0.0.3-SNAPSHOT API - io.github.jrosenkranz.opts.options</title>
+          <meta name="description" content="options - Options Core - Scala 0.0.3 - SNAPSHOT API - io.github.jrosenkranz.opts.options" />
+          <meta name="keywords" content="options Options Core Scala 0.0.3 SNAPSHOT API io.github.jrosenkranz.opts.options" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../../../../../lib/jquery.js" id="jquery-js"></script>
+      <script type="text/javascript" src="../../../../../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../../../../../lib/template.js"></script>
+      <script type="text/javascript" src="../../../../../lib/tools.tooltip.js"></script>
+      
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../../../index.html';
+            var hash = 'io.github.jrosenkranz.opts.options.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img alt="Package" src="../../../../../lib/package_big.png" />
+        <p id="owner"><a href="../../../../package.html" class="extype" name="io">io</a>.<a href="../../../package.html" class="extype" name="io.github">github</a>.<a href="../../package.html" class="extype" name="io.github.jrosenkranz">jrosenkranz</a>.<a href="../package.html" class="extype" name="io.github.jrosenkranz.opts">opts</a></p>
+        <h1>options</h1><span class="permalink">
+      <a href="../../../../../index.html#io.github.jrosenkranz.opts.options.package" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">options</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        
+        
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="io.github.jrosenkranz.opts.options.CommandOpt" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="CommandOptextendsOpt[Any]"></a>
+      <a id="CommandOpt:CommandOpt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="CommandOpt.html"><span class="name">CommandOpt</span></a><span class="result"> extends <a href="Opt.html" class="extype" name="io.github.jrosenkranz.opts.options.Opt">Opt</a>[<span class="extype" name="scala.Any">Any</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#io.github.jrosenkranz.opts.options.package@CommandOptextendsOpt[Any]" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A special form of <a href="Opt.html" class="extype" name="io.github.jrosenkranz.opts.options.Opt">Opt</a> that contains a <span class="extype" name="ChildOptSet">ChildOptSet</span> which are only to be associated with the final result if
+this command is specified in the arguments given.</p><div class="fullcomment"><div class="comment cmt"><p>A special form of <a href="Opt.html" class="extype" name="io.github.jrosenkranz.opts.options.Opt">Opt</a> that contains a <span class="extype" name="ChildOptSet">ChildOptSet</span> which are only to be associated with the final result if
+this command is specified in the arguments given. Unlike other <a href="Opt.html" class="extype" name="io.github.jrosenkranz.opts.options.Opt">Opt</a> this option will always be at the front of
+the command line arguments and will not be prefixed with a - or --
+</p></div><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@SerialVersionUID</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="io.github.jrosenkranz.opts.options.DefaultOpt" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="DefaultOpt[T]extendsInputOpt[T]"></a>
+      <a id="DefaultOpt[T]:DefaultOpt[T]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="DefaultOpt.html"><span class="name">DefaultOpt</span></a><span class="tparams">[<span name="T">T</span>]</span><span class="result"> extends <a href="InputOpt.html" class="extype" name="io.github.jrosenkranz.opts.options.InputOpt">InputOpt</a>[<span class="extype" name="io.github.jrosenkranz.opts.options.DefaultOpt.T">T</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#io.github.jrosenkranz.opts.options.package@DefaultOpt[T]extendsInputOpt[T]" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A special for of <a href="Opt.html" class="extype" name="io.github.jrosenkranz.opts.options.Opt">Opt</a> where a default value is given
+</p><div class="fullcomment"><div class="comment cmt"><p>A special for of <a href="Opt.html" class="extype" name="io.github.jrosenkranz.opts.options.Opt">Opt</a> where a default value is given
+</p></div><dl class="paramcmts block"><dt class="tparam">T</dt><dd class="cmt"><p>the type of value for this option</p></dd></dl><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@SerialVersionUID</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="io.github.jrosenkranz.opts.options.FlagOpt" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="FlagOptextendsDefaultOpt[Boolean]"></a>
+      <a id="FlagOpt:FlagOpt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="FlagOpt.html"><span class="name">FlagOpt</span></a><span class="result"> extends <a href="DefaultOpt.html" class="extype" name="io.github.jrosenkranz.opts.options.DefaultOpt">DefaultOpt</a>[<span class="extype" name="scala.Boolean">Boolean</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#io.github.jrosenkranz.opts.options.package@FlagOptextendsDefaultOpt[Boolean]" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A special form of <a href="DefaultOpt.html" class="extype" name="io.github.jrosenkranz.opts.options.DefaultOpt">DefaultOpt</a> where no input is needed
+</p><div class="fullcomment"><div class="comment cmt"><p>A special form of <a href="DefaultOpt.html" class="extype" name="io.github.jrosenkranz.opts.options.DefaultOpt">DefaultOpt</a> where no input is needed
+</p></div><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@SerialVersionUID</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="io.github.jrosenkranz.opts.options.InputOpt" visbl="pub" data-isabs="true" fullComment="yes" group="Ungrouped">
+      <a id="InputOpt[T]extendsOpt[T]"></a>
+      <a id="InputOpt[T]:InputOpt[T]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">abstract </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="InputOpt.html"><span class="name">InputOpt</span></a><span class="tparams">[<span name="T">T</span>]</span><span class="result"> extends <a href="Opt.html" class="extype" name="io.github.jrosenkranz.opts.options.Opt">Opt</a>[<span class="extype" name="io.github.jrosenkranz.opts.options.InputOpt.T">T</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#io.github.jrosenkranz.opts.options.package@InputOpt[T]extendsOpt[T]" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Special form of opt that has some input associate with it.</p><div class="fullcomment"><div class="comment cmt"><p>Special form of opt that has some input associate with it. In the scope of this project, that means some option
+where if specified as an arg, would have a prefix of -- or -
+</p></div><dl class="paramcmts block"><dt class="tparam">T</dt><dd class="cmt"><p>the type of value for this option</p></dd></dl></div>
+    </li><li name="io.github.jrosenkranz.opts.options.Opt" visbl="pub" data-isabs="true" fullComment="yes" group="Ungrouped">
+      <a id="Opt[T]extendsSerializablewithProduct"></a>
+      <a id="Opt[T]:Opt[T]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">abstract </span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Opt.html"><span class="name">Opt</span></a><span class="tparams">[<span name="T">T</span>]</span><span class="params">(<span name="key">key: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="message">message: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="abrKey">abrKey: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>] = <span class="symbol">None</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span> with <span class="extype" name="scala.Product">Product</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#io.github.jrosenkranz.opts.options.package@Opt[T]extendsSerializablewithProduct" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">The most basic form of option that all other options derive from.</p><div class="fullcomment"><div class="comment cmt"><p>The most basic form of option that all other options derive from. A sequence of options are what make up an option
+schema or <a href="../set/OptSet.html" class="extype" name="io.github.jrosenkranz.opts.set.OptSet">io.github.jrosenkranz.opts.set.OptSet</a>
+</p></div><dl class="paramcmts block"><dt class="tparam">T</dt><dd class="cmt"><p>the type of value for this option</p></dd><dt class="param">key</dt><dd class="cmt"><p>the key for this option</p></dd><dt class="param">message</dt><dd class="cmt"><p>the message for this option</p></dd><dt class="param">abrKey</dt><dd class="cmt"><p>the abbreviation key for this option</p></dd></dl></div>
+    </li><li name="io.github.jrosenkranz.opts.options.RequiredOpt" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="RequiredOpt[T]extendsInputOpt[T]"></a>
+      <a id="RequiredOpt[T]:RequiredOpt[T]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="RequiredOpt.html"><span class="name">RequiredOpt</span></a><span class="tparams">[<span name="T">T</span>]</span><span class="result"> extends <a href="InputOpt.html" class="extype" name="io.github.jrosenkranz.opts.options.InputOpt">InputOpt</a>[<span class="extype" name="io.github.jrosenkranz.opts.options.RequiredOpt.T">T</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#io.github.jrosenkranz.opts.options.package@RequiredOpt[T]extendsInputOpt[T]" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A special form of <a href="Opt.html" class="extype" name="io.github.jrosenkranz.opts.options.Opt">Opt</a> where this option is required as part of the command line arguments
+</p><div class="fullcomment"><div class="comment cmt"><p>A special form of <a href="Opt.html" class="extype" name="io.github.jrosenkranz.opts.options.Opt">Opt</a> where this option is required as part of the command line arguments
+</p></div><dl class="paramcmts block"><dt class="tparam">T</dt><dd class="cmt"><p>the type of value for this option</p></dd></dl><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@SerialVersionUID</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="io.github.jrosenkranz.opts.options.CommandOpt" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="CommandOpt"></a>
+      <a id="CommandOpt:CommandOpt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="CommandOpt$.html"><span class="name">CommandOpt</span></a><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#io.github.jrosenkranz.opts.options.package@CommandOpt" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="io.github.jrosenkranz.opts.options.DefaultOpt" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="DefaultOpt"></a>
+      <a id="DefaultOpt:DefaultOpt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="DefaultOpt$.html"><span class="name">DefaultOpt</span></a><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#io.github.jrosenkranz.opts.options.package@DefaultOpt" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="io.github.jrosenkranz.opts.options.FlagOpt" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="FlagOpt"></a>
+      <a id="FlagOpt:FlagOpt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="FlagOpt$.html"><span class="name">FlagOpt</span></a><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#io.github.jrosenkranz.opts.options.package@FlagOpt" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="io.github.jrosenkranz.opts.options.RequiredOpt" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RequiredOpt"></a>
+      <a id="RequiredOpt:RequiredOpt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="RequiredOpt$.html"><span class="name">RequiredOpt</span></a><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#io.github.jrosenkranz.opts.options.package@RequiredOpt" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>
