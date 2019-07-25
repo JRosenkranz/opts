@@ -4,3 +4,5 @@ target
 .DS_STORE
 maven-central-deploy.sh
 maven-central-deploy.log
+pom.xml.releaseBackup
+release.properties
