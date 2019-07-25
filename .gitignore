@@ -2,7 +2,10 @@ target
 *.iml
 .idea
 .DS_STORE
-maven-central-deploy.sh
+maven-snapshot-deploy.sh
+maven-snapshot-deploy.log
+maven-central-staging-deploy.sh
 maven-central-deploy.log
 pom.xml.releaseBackup
 release.properties
+pom.xml.versionsBackup
