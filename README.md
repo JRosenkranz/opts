@@ -52,8 +52,6 @@ This is a command line parser to be used in Scala and Java applications. Some fe
 </dependency>
 ```
 
-Scala docs can be found [here](https://jrosenkranz.github.io/opts/docs)
-
 ### Immutable Case Class Declaration
 
 _OptSet_ - A Set of Options to use for parsing arguments
