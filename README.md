@@ -1,4 +1,4 @@
-# Parameter Parsing
+# Opts Parameter Parsing
 
 This is a command line parser to be used in Scala and Java applications. Some features that this parser supports are:
 
