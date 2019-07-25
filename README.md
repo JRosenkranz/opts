@@ -273,6 +273,8 @@ val options = new ArgParser {
 }
 ```
 
+*Note: nested sub-commands are not yet supported here, but if enough need arises, will provide*
+
 #### Getting options
 
 ```scala
