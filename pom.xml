@@ -1,11 +1,10 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.github.jrosenkranz.opts</groupId>
     <artifactId>opts-parent</artifactId>
     <packaging>pom</packaging>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>Opts Parent Project</name>
 
     <parent>
@@ -18,6 +17,19 @@
         <module>core</module>
         <module>samples</module>
     </modules>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>sonatype-nexus-snapshots</id>
+            <name>Sonatype Nexus snapshot repository</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>sonatype-nexus-staging</id>
+            <name>Sonatype Nexus release repository</name>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+        </repository>
+    </distributionManagement>
 
     <build>
         <pluginManagement>
@@ -68,4 +80,21 @@
     <dependencies>
 
     </dependencies>
+
+    <scm>
+        <url>https://github.com/JRosenkranz/opts</url>
+        <connection>scm:git:git://github.com/JRosenkranz/opts.git</connection>
+        <developerConnection>scm:git:git@github.com:JRosenkranz/opts.git</developerConnection>
+        <tag>opts-parent-0.0.1</tag>
+    </scm>
+
+    <developers>
+        <developer>
+            <id>josh</id>
+            <name>Joshua Rosenkranz</name>
+            <email>joshua.rosenkranz@gmail.com</email>
+            <organizationUrl>https://github.com/JRosenkranz</organizationUrl>
+            <url>https://github.com/JRosenkranz</url>
+        </developer>
+    </developers>
 </project>

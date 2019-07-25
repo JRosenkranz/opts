@@ -15,7 +15,24 @@ This is a command line parser to be used in Scala and Java applications. Some fe
 
 ## including in a project
 
-For Scala
+### Add the following repository
+
+```xml
+<repositories>
+    <repository>
+        <id>oss-sonatype</id>
+        <name>oss-sonatype</name>
+        <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+        <snapshots>
+            <enabled>true</enabled>
+        </snapshots>
+    </repository>
+</repositories>
+```
+
+### Add the following dependency
+
+#### For Scala
 
 ```xml
 <dependency>
@@ -25,7 +42,7 @@ For Scala
 </dependency>
 ```
 
-For Java
+#### For Java
 
 ```xml
 <dependency>
