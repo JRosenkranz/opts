@@ -3,6 +3,8 @@ package io.github.jrosenkranz.opts.set
 import io.github.jrosenkranz.opts.Opts
 import io.github.jrosenkranz.opts.options.{CommandOpt, DefaultOpt, FlagOpt, Opt, RequiredOpt}
 
+import scala.collection.GenTraversableOnce
+
 /**
   * This is the basic schema for a set of options
   *
@@ -41,6 +43,8 @@ case class OptSet(parameters: Opt[Any]*) extends Set[Opt[Any]] with Serializable
   override def +(elem: Opt[Any]): OptSet = OptSet(set.+(elem).toSeq :_*)
 
   override def -(elem: Opt[Any]):OptSet = OptSet(set.-(elem).toSeq :_*)
+
+  override def ++(optSet: GenTraversableOnce[Opt[Any]]): OptSet = OptSet((set ++ optSet).toSeq :_*)
 
   override def iterator: Iterator[Opt[Any]] = set.iterator
 
