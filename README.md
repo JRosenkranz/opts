@@ -100,30 +100,32 @@ The above schema maps to this if arguments are not provided properly
 ```text
 Usage: [cmd] --host <HOST> [options]
 --host, -h <String> | required
-    kafka host
+		kafka host
 --port, -p <Integer> | default value = 2181
-    kafka port
-		
-Command: delete [options]
+		kafka port
+
+Command: delete --host <HOST>  --topicName <TOPICNAME> 
 delete a topic
-    --topicName <String> | required
-	    name of topic to delete
-    --help
-	    flag which provides a help message for the delete command
-	    
-Command: add [options]
+	--topicName <String> | required
+		name of topic to delete
+	--help
+		flag which provides a help message for the delete command
+
+
+Command: add --host <HOST>  --topicName <TOPICNAME> 
 add a topic
-    --topicName <String> | required
-	    name of topic to add
-    --help
-	    flag which provides a help message for the add command
-	    
-Command: send [options]
+	--topicName <String> | required
+		name of topic to add
+	--help
+		flag which provides a help message for the add command
+
+
+Command: send --host <HOST>  --topicName <TOPICNAME> --values <VALUES> 
 send values on a given topic
-    --topicName <String> | required
-	    name of topic to send values on
-    --values <Array> | required
-	    values to send (comma separated)
+	--topicName <String> | required
+		name of topic to send values on
+	--values, -v <Array> | required
+		values to send (comma separated)
 ```
 
 #### Getting options
